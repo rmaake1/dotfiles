@@ -35,3 +35,5 @@ Using [catppuccin mocha chrome theme](https://chromewebstore.google.com/detail/c
 ## Wallpapers
 Wallpapers were all pulled from [this repo](https://github.com/orangci/walls-catppuccin-mocha)
 
+Using [hyprpaper](https://wiki.hyprland.org/Hypr-Ecosystem/hyprpaper/) with a small [script](https://github.com/rmaake1/dotfiles/blob/master/hypr/.config/hypr/scripts/wallpapers.sh) that changes to a random wallpaper across all monitors once every 5 minutes.
+
