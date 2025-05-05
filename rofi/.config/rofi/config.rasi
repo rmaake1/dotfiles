@@ -1,0 +1,11 @@
+configuration {
+    show-icons: false;
+
+    display-ssh:    "󰣀 ssh:";
+    display-run:    "󱓞 run:";
+    display-drun:   ">";
+    display-window: "󱂬 window:";
+    display-combi:  "󰕘 combi:";
+    display-filebrowser: "󰉋 filebrowser:";
+}
+@theme "catppuccin-lavrent-mocha"

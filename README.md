@@ -13,6 +13,9 @@ Kitty terminal with the official [catppuccin mocha](https://github.com/catppucci
 ## Micro
 Using [micro editor](https://github.com/zyedidia/micro) for terminal work with the [catppuccin mocha theme](https://github.com/catppuccin/micro) and some color tweaks.
 
+## Rofi
+Using a tweaked version of [this catppuccin theme](https://gitlab.com/serlav/rofi-catppuccin) for rofi.
+
 ## GTK Theming
 For file manager/other GTK apps I'm using the [catppuccin mocha](https://github.com/catppuccin/gtk/blob/main/docs/USAGE.md) green standard+default theme which you should be able to grab from the AUR if you're on Arch.
 
