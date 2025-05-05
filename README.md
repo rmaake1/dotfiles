@@ -16,6 +16,7 @@ Using [micro editor](https://github.com/zyedidia/micro) for terminal work with t
 ## GTK Theming
 For file manager/other GTK apps I'm using the [catppuccin mocha](https://github.com/catppuccin/gtk/blob/main/docs/USAGE.md) green standard+default theme which you should be able to grab from the AUR if you're on Arch.
 Theme is applied via [nwg-look](https://github.com/nwg-piotr/nwg-look) and my modified version is [here](https://github.com/rmaake1/dotfiles/tree/master/catppuccin-custom/.local/share/themes/catppuccin-custom).
+Using Papirus with the catppuccin theme unchanged, instructions [here](https://github.com/catppuccin/papirus-folders)
 
 ## Discord
 Cleaned up and modified the [catppuccin discord theme](https://github.com/catppuccin/discord) and applied using BetterDiscord, but you should be able to drop the custom css into vencord too.
