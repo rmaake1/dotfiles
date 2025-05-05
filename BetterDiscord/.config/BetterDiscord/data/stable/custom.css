@@ -1,0 +1,401 @@
+*{font-family: "CaskaydiaCove NFP SemiLight" !important;}
+h3 > span > span{font-family: "CaskaydiaCove NF Semibold" !important;}
+[class^="messageListItem_"], [class^="messageListItem_"] h3 {margin-bottom:5px}
+.theme-dark div[class^=item_][class*=addFriend_],
+.theme-dark div[class*=numberBadge_][style*="background-color: var(--status-danger);"],
+.theme-dark div[class*=iconBadge_][class*=isCurrentUserConnected_],
+.theme-dark div[class^=bar_][class*=unreadMentionsBar_],
+.theme-dark span[class*=botTag_],
+.theme-dark span[class^=unreadPill_],
+.theme-dark div[class^=listItem_] div[class^=wrapper_] [class*=selected_],
+.theme-dark button[class^=container_]>div[class^=icon_]>svg,
+.theme-dark div[class^=newBadge_],
+.theme-dark div[class^=premiumTab_][class*=selected_],
+.theme-dark label[class^=checkboxWrapper_],
+.theme-dark label[class^=checkboxWrapperDisabled_],
+.theme-dark div[class^=checkbox_][class*=box_],
+.theme-dark svg[class^=checkmarkCircle],
+.theme-dark button[class*=button_][class*=lookFilled_][class*=colorRed_],
+.theme-dark button[class*=button_][class*=lookFilled_][class*=colorGreen_],
+.theme-dark button[class*=button_][class*=lookFilled_][class*=colorLink_],
+.theme-dark button[class*=colorable_][class*=join_],
+.theme-dark svg[class^=status_],
+.theme-dark svg[class^=dots_],
+.theme-dark div[class*=textBadge_][class*=base_],
+.theme-dark svg[class^=descriptionIcon_],
+.theme-dark div[class*=winButtonClose_]:hover,
+.theme-dark div[class^=uploadArea_],
+.theme-dark svg[class^=stepIcon_],
+.theme-dark svg[class^=activeIcon_],
+.theme-dark div[class*=tooltipBrand_],
+.theme-dark [class*=notice_][class*=colorBrand_],
+.theme-dark [class*=colorStreamerMode_],
+.theme-dark [class*=colorSpotify_],
+.theme-dark [class*=colorPremium_],
+.theme-dark [class*=colorPlayStation_],
+.theme-dark .interactive:hover,
+.visual-refresh.theme-dark div[class^=item_][class*=addFriend_],
+.visual-refresh.theme-dark div[class*=numberBadge_][style*="background-color: var(--status-danger);"],
+.visual-refresh.theme-dark div[class*=iconBadge_][class*=isCurrentUserConnected_],
+.visual-refresh.theme-dark div[class^=bar_][class*=unreadMentionsBar_],
+.visual-refresh.theme-dark span[class*=botTag_],
+.visual-refresh.theme-dark span[class^=unreadPill_],
+.visual-refresh.theme-dark div[class^=listItem_] div[class^=wrapper_] [class*=selected_],
+.visual-refresh.theme-dark button[class^=container_]>div[class^=icon_]>svg,
+.visual-refresh.theme-dark div[class^=newBadge_],
+.visual-refresh.theme-dark div[class^=premiumTab_][class*=selected_],
+.visual-refresh.theme-dark label[class^=checkboxWrapper_],
+.visual-refresh.theme-dark label[class^=checkboxWrapperDisabled_],
+.visual-refresh.theme-dark div[class^=checkbox_][class*=box_],
+.visual-refresh.theme-dark svg[class^=checkmarkCircle],
+.visual-refresh.theme-dark button[class*=button_][class*=lookFilled_][class*=colorRed_],
+.visual-refresh.theme-dark button[class*=button_][class*=lookFilled_][class*=colorGreen_],
+.visual-refresh.theme-dark button[class*=button_][class*=lookFilled_][class*=colorLink_],
+.visual-refresh.theme-dark button[class*=colorable_][class*=join_],
+.visual-refresh.theme-dark svg[class^=status_],
+.visual-refresh.theme-dark svg[class^=dots_],
+.visual-refresh.theme-dark div[class*=textBadge_][class*=base_],
+.visual-refresh.theme-dark svg[class^=descriptionIcon_],
+.visual-refresh.theme-dark div[class*=winButtonClose_]:hover,
+.visual-refresh.theme-dark div[class^=uploadArea_],
+.visual-refresh.theme-dark svg[class^=stepIcon_],
+.visual-refresh.theme-dark svg[class^=activeIcon_],
+.visual-refresh.theme-dark div[class*=tooltipBrand_],
+.visual-refresh.theme-dark [class*=notice_][class*=colorBrand_],
+.visual-refresh.theme-dark [class*=colorStreamerMode_],
+.visual-refresh.theme-dark [class*=colorSpotify_],
+.visual-refresh.theme-dark [class*=colorPremium_],
+.visual-refresh.theme-dark [class*=colorPlayStation_],
+.visual-refresh.theme-dark .interactive:hover,
+.visual-refresh .theme-dark div[class^=item_][class*=addFriend_],
+.visual-refresh .theme-dark div[class*=numberBadge_][style*="background-color: var(--status-danger);"],
+.visual-refresh .theme-dark div[class*=iconBadge_][class*=isCurrentUserConnected_],
+.visual-refresh .theme-dark div[class^=bar_][class*=unreadMentionsBar_],
+.visual-refresh .theme-dark span[class*=botTag_],
+.visual-refresh .theme-dark span[class^=unreadPill_],
+.visual-refresh .theme-dark div[class^=listItem_] div[class^=wrapper_] [class*=selected_],
+.visual-refresh .theme-dark button[class^=container_]>div[class^=icon_]>svg,
+.visual-refresh .theme-dark div[class^=newBadge_],
+.visual-refresh .theme-dark div[class^=premiumTab_][class*=selected_],
+.visual-refresh .theme-dark label[class^=checkboxWrapper_],
+.visual-refresh .theme-dark label[class^=checkboxWrapperDisabled_],
+.visual-refresh .theme-dark div[class^=checkbox_][class*=box_],
+.visual-refresh .theme-dark svg[class^=checkmarkCircle],
+.visual-refresh .theme-dark button[class*=button_][class*=lookFilled_][class*=colorRed_],
+.visual-refresh .theme-dark button[class*=button_][class*=lookFilled_][class*=colorGreen_],
+.visual-refresh .theme-dark button[class*=button_][class*=lookFilled_][class*=colorLink_],
+.visual-refresh .theme-dark button[class*=colorable_][class*=join_],
+.visual-refresh .theme-dark svg[class^=status_],
+.visual-refresh .theme-dark svg[class^=dots_],
+.visual-refresh .theme-dark div[class*=textBadge_][class*=base_],
+.visual-refresh .theme-dark svg[class^=descriptionIcon_],
+.visual-refresh .theme-dark div[class*=winButtonClose_]:hover,
+.visual-refresh .theme-dark div[class^=uploadArea_],
+.visual-refresh .theme-dark svg[class^=stepIcon_],
+.visual-refresh .theme-dark svg[class^=activeIcon_],
+.visual-refresh .theme-dark div[class*=tooltipBrand_],
+.visual-refresh .theme-dark [class*=notice_][class*=colorBrand_],
+.visual-refresh .theme-dark [class*=colorStreamerMode_],
+.visual-refresh .theme-dark [class*=colorSpotify_],
+.visual-refresh .theme-dark [class*=colorPremium_],
+.visual-refresh .theme-dark [class*=colorPlayStation_],
+.visual-refresh .theme-dark .interactive:hover {
+	--white: #11111b;
+	--white-500: #11111b
+}
+
+*{
+	--brand-experiment: #a6e3a1;
+	--bg-brand: #a6e3a1;
+	--brand-100: white;
+	--brand-130: white;
+	--brand-160: white;
+	--brand-200: white;
+	--brand-230: white;
+	--brand-260: white;
+	--brand-300: white;
+	--brand-330: white;
+	--brand-360: #ebf2fe;
+	--brand-400: #d2e3fd;
+	--brand-430: #bad3fc;
+	--brand-460: #a1c4fb;
+	--brand-500: #89b4fa !important;
+	--brand-530: #71a4f9;
+	--brand-560: #5895f8;
+	--brand-600: #4085f7;
+	--brand-630: #2776f6;
+	--brand-660: #0f66f5;
+	--brand-700: #0a5be0;
+	--brand-730: #0956d4;
+	--brand-760: #0851c8;
+	--brand-800: #084cbc;
+	--brand-830: #0747b0;
+	--brand-860: #0742a3;
+	--brand-900: #063d97;
+	--brand-05a: rgba(137, 180, 250, 0.05);
+	--brand-10a: rgba(137, 180, 250, 0.1);
+	--brand-15a: rgba(137, 180, 250, 0.15);
+	--brand-20a: rgba(137, 180, 250, 0.2);
+	--brand-25a: rgba(137, 180, 250, 0.25);
+	--brand-30a: rgba(137, 180, 250, 0.3);
+	--brand-35a: rgba(137, 180, 250, 0.35);
+	--brand-40a: rgba(137, 180, 250, 0.4);
+	--brand-45a: rgba(137, 180, 250, 0.45);
+	--brand-50a: rgba(137, 180, 250, 0.5);
+	--brand-55a: rgba(137, 180, 250, 0.55);
+	--brand-60a: rgba(137, 180, 250, 0.6);
+	--brand-65a: rgba(137, 180, 250, 0.65);
+	--brand-70a: rgba(137, 180, 250, 0.7);
+	--brand-75a: rgba(137, 180, 250, 0.75);
+	--brand-80a: rgba(137, 180, 250, 0.8);
+	--brand-85a: rgba(137, 180, 250, 0.85);
+	--brand-90a: rgba(137, 180, 250, 0.9);
+	--brand-95a: rgba(137, 180, 250, 0.95);
+	--spotify: #a6e3a1;
+	--button-filled-brand-border: transparent;
+	--button-filled-brand-text: #11111b;
+	--button-filled-brand-background: #a6e3a1;
+	--button-filled-brand-background-hover: rgba(166, 227, 161,0.8);
+	--button-filled-brand-background-active: #4c8df7;
+	--button-filled-brand-inverted-text: #11111b;
+	--button-filled-brand-inverted-background: #cdd6f4;
+	--button-filled-brand-inverted-background-hover: #aebced;
+	--button-filled-brand-inverted-background-active: #99abe9;
+	--header-primary: #a6e3a1 !important;
+	--header-secondary: #a6adc8 !important;
+	--__header-bar-background: #181825 !important;
+	--text-normal: #cdd6f4 !important;
+	--text-default: #cdd6f4;
+	--text-muted: #a6adc8 !important;
+	--text-link: #89b4fa !important;
+	--text-link-low-saturation: #74c7ec;
+	--text-positive: #a6e3a1;
+	--text-warning: #f9e2af;
+	--text-danger: #f38ba8;
+	--text-brand: #a6e3a1;
+	--text-primary: #cdd6f4;
+	--text-secondary: #bac2de;
+	--text-tertiary: #a6adc8 !important;
+	--text-feedback-positive: #a6e3a1;
+	--text-feedback-critical: #f38ba8;
+	--text-feedback-warning: #f9e2af;
+	--text-feedback-info: #a6e3a1;
+	--background-feedback-positive: rgba(166, 227, 161, 0.1);
+	--background-feedback-critical: rgba(243, 139, 168, 0.1);
+	--background-feedback-warning: rgba(249, 226, 175, 0.1);
+	--background-feedback-info: rgba(137, 180, 250, 0.1);
+	--autocomplete-bg: #11111b;
+	--message-reacted-background: rgba(137, 180, 250, 0.3) !important;
+	--message-reacted-text: #a6e3a1;
+	--opacity-blurple-16: rgba(137, 180, 250, 0.16);
+	--blurple-50: #a6e3a1;
+	/**aint do nothin**/
+	--background-primary: #1e1e2e !important;
+	--background-secondary: #1e1e2e !important;
+	--background-secondary-alt: #1c1c2b !important;
+	--background-tertiary: #1e1e2e !important;
+	--background-accent: #45475a !important;
+	--background-floating: #0d0d15 !important;
+	--background-surface-highest: #313244 !important;
+	--background-surface-higher: #2b2b3b !important;
+	--background-surface-high: #181825 !important;
+	--background-base-lowest: #181825 !important;
+	--background-base-lower: #1e1e2e !important;
+	--background-base-low: #1c1c2b !important;
+	--background-nested-floating: #181825;
+	--background-mobile-primary: #1e1e2e;
+	--background-mobile-secondary: #181825;
+	--bg-base-secondary: #181825;
+	--bg-base-tertiary: #181825 !important;
+	--bg-surface-overlay: #222234;
+	--bg-surface-raised: #181825;
+	--bg-overlay-floating: #181825;
+	--home-background: #1e1e2e;
+	--chat-background: #1e1e2e;
+	--chat-border: #11111b;
+	--chat-input-container-background: #1e1e2e;
+	--chat-text-muted: #a6adc8;
+	--border-normal: #11111b;
+	--border-subtle: #1e1e2e !important;
+	--background-modifier-hover: rgba(147, 153, 178, 0.15);
+	--background-modifier-selected: rgba(108, 112, 134, 0.2);
+	--background-modifier-accent: rgba(205, 214, 244, 0.26);
+	--background-modifier-active: rgba(205, 214, 244, 0.17);
+	--background-mod-faint: #585b70;
+	--background-mod-normal: #45475a;
+	--background-mod-strong: #1e1e2e;
+	--background-mod-subtle: #313244;
+	--custom-channel-members-bg: #181825;
+	--custom-status-bubble-background: #11111b !important;
+	--custom-status-bubble-background-color: #181825 !important;
+	--card-primary-bg: #313244 !important;
+	--info-positive-background: rgba(166, 227, 161, 0.15);
+	--info-positive-foreground: #a6e3a1;
+	--info-positive-text: #cdd6f4;
+	--info-warning-background: rgba(249, 226, 175, 0.15);
+	--info-warning-foreground: #f9e2af;
+	--info-warning-text: #cdd6f4;
+	--info-danger-background: rgba(243, 139, 168, 0.15);
+	--info-danger-foreground: #f38ba8;
+	--info-danger-text: #cdd6f4;
+	--info-help-background: rgba(137, 220, 235, 0.15);
+	--info-help-foreground: #89dceb;
+	--info-help-text: #cdd6f4;
+	--status-positive-background: #a6e3a1;
+	--status-positive-text: #1e1e2e;
+	--status-warning-background: #f9e2af;
+	--status-warning-text: #1e1e2e;
+	--status-danger-background: #f38ba8;
+	--status-danger-text: #1e1e2e;
+	--status-danger: #f38ba8;
+	--status-positive: #a6e3a1;
+	--status-warning: #f9e2af;
+	--black-500: #11111b;
+	--green-360: #a6e3a1;
+	--yellow-360: #f9e2af;
+	--yellow-300: #f9e2af;
+	--red-400: #f38ba8;
+	--red-500: #ec4674;
+	--primary-100: #bac2de;
+	--primary-300: #bac2de;
+	--primary-400: #bac2de;
+	--primary-700: #45475a;
+	--primary-800: #11111b;
+	--white: #11111b;
+	--white-400: #cdd6f4;
+	--white-500: #cdd6f4;
+	--guild-boosting-pink: #f5c2e7;
+	--guild-boosting-blue: #a6e3a1;
+	--guild-boosting-purple: #cba6f7;
+	--premium-perk-yellow: #f9e2af;
+	--premium-perk-purple: #cba6f7;
+	--premium-perk-dark-blue: #5895f8;
+	--premium-perk-light-blue: #a1c4fb;
+	--premium-perk-blue: #a6e3a1;
+	--premium-perk-green: #a6e3a1;
+	--premium-perk-pink: #f5c2e7;
+	--premium-perk-orange: #fab387;
+	--premium-tier-0-blue: #a6e3a1;
+	--premium-tier-0-purple: #cba6f7;
+	--premium-tier-1-blue-for-gradients: #74c7ec;
+	--premium-tier-1-dark-blue-for-gradients: #a6e3a1;
+	--premium-tier-2-purple-for-gradients: #b077f3;
+	--premium-tier-2-purple-for-gradients-2: #cba6f7;
+	--premium-tier-2-pink-for-gradients: #f5c2e7;
+	--button-danger-background: #f38ba8;
+	--button-danger-background-hover: #f17497;
+	--button-danger-background-active: #ee5d85;
+	--button-danger-background-disabled: #f38ba8;
+	--button-positive-background: #a6e3a1;
+	--button-positive-background-hover: #93dd8d;
+	--button-positive-background-active: #8ada84;
+	--button-positive-background-disabled: #a6e3a1;
+	--button-secondary-background: #45475a !important;
+	--button-secondary-background-hover: #3a3c4c;
+	--button-secondary-background-active: #3a3c4c;
+	--button-secondary-background-disabled: #45475a;
+	--button-secondary-text: #cdd6f4 !important;
+	--button-outline-danger-text: #cdd6f4;
+	--button-outline-danger-border: #f38ba8;
+	--button-outline-danger-background: transparent;
+	--button-outline-danger-background-hover: #f27f9f;
+	--button-outline-danger-text-hover: #1e1e2e;
+	--button-outline-danger-border-hover: #f27f9f;
+	--button-outline-danger-background-active: #f17497;
+	--button-outline-danger-text-active: #1e1e2e;
+	--button-outline-danger-border-active: #f27f9f;
+	--button-outline-positive-text: #cdd6f4;
+	--button-outline-positive-border: #a6e3a1;
+	--button-outline-positive-background: transparent;
+	--button-outline-positive-background-hover: #9de097;
+	--button-outline-positive-text-hover: #1e1e2e;
+	--button-outline-positive-border-hover: #9de097;
+	--button-outline-positive-background-active: #93dd8d;
+	--button-outline-positive-text-active: #1e1e2e;
+	--button-outline-positive-border-active: #9de097;
+	--button-outline-brand-text: #cdd6f4;
+	--button-outline-brand-border: #a6e3a1;
+	--button-outline-brand-background: transparent;
+	--button-outline-brand-background-hover: #7dacf9;
+	--button-outline-brand-text-hover: #1e1e2e;
+	--button-outline-brand-border-hover: #7dacf9;
+	--button-outline-brand-background-active: #71a4f9;
+	--button-outline-brand-text-active: #1e1e2e;
+	--button-outline-brand-border-active: #7dacf9;
+	--button-outline-primary-text: #cdd6f4;
+	--button-outline-primary-border: #585b70;
+	--button-outline-primary-background: transparent;
+	--button-outline-primary-background-hover: #525569;
+	--button-outline-primary-text-hover: #1e1e2e;
+	--button-outline-primary-border-hover: #525569;
+	--button-outline-primary-background-active: #4d4f62;
+	--button-outline-primary-text-active: #1e1e2e;
+	--button-outline-primary-border-active: #525569;
+	--modal-background: #1e1e2e !important;
+	--modal-footer-background: #11111b;
+	--scrollbar-auto-thumb: #a6e3a1;
+	--scrollbar-auto-scrollbar-color-thumb: #a6e3a1;
+	--scrollbar-auto-scrollbar-color-track: #11111b;
+	--input-background: #11111b;
+	--input-placeholder-text: #bac2de;
+	--logo-primary: #cdd6f4;
+	--control-brand-foreground: #a6e3a1;
+	--control-brand-foreground-new: #a6e3a1;
+	--mention-foreground: #a6e3a1;
+	--mention-background: transparent;
+	--background-mentioned: #313244;
+	--background-mentioned-hover: #45475a;
+	--background-message-hover: rgba(17, 17, 27, 0.3) !important;
+	--background-message-automod: rgba(245, 224, 220, 0.05);
+	--background-message-automod-hover: rgba(245, 224, 220, 0.1);
+	--background-message-highlight: rgba(137, 180, 250, 0.08);
+	--background-message-highlight-hover: rgba(137, 180, 250, 0.06);
+	--background-code: #1e1e2e;
+	--channels-default: #969ebe !important;
+	--channel-icon: #969ebe !important;
+	--channel-text-area-placeholder: rgba(205, 214, 244, 0.5);
+	--channeltextarea-background: #181825;
+	--icon-muted: #585b70;
+	--icon-default: #cdd6f4;
+	--icon-primary: #cdd6f4;
+	--icon-secondary: #bac2de;
+	--icon-tertiary: #969ebe !important;
+	--activity-card-background: #11111b;
+	--textbox-markdown-syntax: #6c7086;
+	--spoiler-revealed-background: #313244;
+	--spoiler-hidden-background: #585b70;
+	--android-navigation-bar-background: #11111b;
+	--android-ripple: rgba(17, 17, 27, 0.3);
+	--deprecated-card-bg: rgba(17, 17, 27, 0.6);
+	--deprecated-card-editable-bg: rgba(17, 17, 27, 0.3);
+	--bg-mod-faint: rgba(30, 30, 46, 0.1);
+	--bg-mod-subtle: rgba(30, 30, 46, 0.25) !important;
+	--bg-mod-strong: rgba(30, 30, 46, 0.45) !important;
+	--deprecated-text-input-bg: #11111b;
+	--deprecated-text-input-border: rgba(17, 17, 27, 0.3);
+	--deprecated-text-input-border-hover: #07070b;
+	--deprecated-text-input-border-disabled: #181825;
+	--focus-primary: #a6e3a1;
+	--interactive-normal: #cdd6f4 !important;
+	--interactive-muted: #6c7086;
+	--interactive-hover: #cdd6f4;
+	--interactive-active: #cdd6f4;
+	--search-popout-option-non-text-color: #a6adc8;
+	--__spoiler-background-color--hidden: #585b70;
+	--__spoiler-warning-background-color: #63677e;
+	--user-profile-overlay-background: #181825;
+	--user-profile-overlay-background-hover: #313244;
+	--plum-23: #1e1e2e;
+	--badge-brand-bg: #a6e3a1;
+	--badge-brand-text: #11111b;
+	--twitch: #b077f3;
+	--playstation: #5895f8;
+	--notice-background-critical: #f38ba8;
+	--notice-background-info: #a6e3a1;
+	--notice-background-positive: #a6e3a1;
+	--notice-background-warning: #f9e2af;
+	--notice-text-critical: #11111b;
+	--notice-text-info: #11111b;
+	--notice-text-positive: #11111b;
+	--notice-text-warning: #11111b
+}
