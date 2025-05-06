@@ -43,8 +43,8 @@
   "bar.clock.format": "%m/%d > %I:%M %p",
   "theme.font.size": "1rem",
   "theme.bar.buttons.enableBorders": false,
-  "theme.bar.border.location": "none",
-  "theme.bar.border.width": "0.05em",
+  "theme.bar.border.location": "full",
+  "theme.bar.border.width": "0.15em",
   "theme.bar.enableShadow": false,
   "theme.bar.background": "#1e1e2e",
   "theme.bar.menus.menu.volume.label.color": "#a6e3a1",
@@ -108,5 +108,7 @@
   "bar.media.show_active_only": true,
   "notifications.active_monitor": false,
   "theme.bar.buttons.media.enableBorder": false,
-  "bar.media.truncation": false
+  "bar.media.truncation": false,
+  "theme.bar.border.color": "#45465a",
+  "theme.bar.buttons.borderSize": "0.1em"
 }
