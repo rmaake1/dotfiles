@@ -6185,12 +6185,14 @@ window.background > box.vertical > scrolledwindow > widget toolbar button {
  * Chromium *
  ************/
 window.background.chromium {
-  background-color: #313244;
+  background-color: #1e1e2e;
 }
+
+.chromium {color:#cdd6f4;}
 
 window.background.chromium entry,
 window.background.chromium > button {
-  border: 1px solid #393947;
+  border: 1px solid #313244;
 }
 
 window.background.chromium > button {
@@ -6228,12 +6230,12 @@ window.background.chromium treeview.view.cell:selected:focus {
 }
 
 window.background.chromium treeview.view button {
-  border: 1px solid rgba(239, 241, 245, 0.3);
+  border: 1px solid #313244;
   background-color: #1e1e2e;
 }
 
 window.background.chromium menu {
-  border-color: #3e3e5f;
+  border-color: #313244;
 }
 
 window.background.chromium menu menuitem {
